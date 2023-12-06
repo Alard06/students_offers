@@ -15,7 +15,6 @@ count_el = {}
 for item in elements:
     count_el[item] = question.count(item)
 
-print(count_el)
 
 # Имеющие муз. центр
 prop_mus = count_el['1'] / count_resp * 100
